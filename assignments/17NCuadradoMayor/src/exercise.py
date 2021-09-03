@@ -4,7 +4,7 @@ def main():
     num = int(input("Escribe un numero : "))
     var = 1
     
-    while var**2 < num:
+    while var**2 <= num:
         var = var + 1
         if var**2 < num:
             pass
