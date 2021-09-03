@@ -6,9 +6,9 @@ def main():
     espacios = num - 1
     
     while  num >= var:
-        print('*' * var)
+        print(' '*(espacios),'*' * var)
         var = var + 1
-        espacios = espacios - 1
+        espacios = espacios -1
     
 
 
