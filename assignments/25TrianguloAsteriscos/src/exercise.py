@@ -8,7 +8,11 @@ def main():
     while  num >= var:
         print(' '*(espacios),'*' * var)
         var = var + 1
-        espacios = espacios -1
+        if num != espacios
+            espacios = espacios -1
+        elif num == espacios
+            pass
+        
     
 
 
