@@ -1,20 +1,11 @@
 
 def main():
     #Escribe tu código debajo de esta línea
-    num = int(input("Enter triangle height: "))
-    var = 1
-    espacios = num - 2
+    height = int(input("Enter triangle height: "))   
     
-    while  var <= num:
-        if num != espacios:
-            print(' '*(espacios),'*' * var)
-            var = var + 1
-            espacios = espacios -1
-        elif num == espacios:
-            var = var + 1
-            print('*' * var)
-        
-    
+    for var in range(1, height+1)
+        espacios = height - var
+        print(' '*(espacios),'*' * var)
 
 
 if __name__=='__main__':
