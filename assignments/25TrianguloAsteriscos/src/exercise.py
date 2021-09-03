@@ -1,7 +1,15 @@
 
 def main():
     #Escribe tu código debajo de esta línea
-    pass
+    num = int(input("Enter triangle height: "))
+    var = 1
+    espacios = num - 1
+  
+    while  num >= var:
+        print(' '*(espacios)+'*' * var)
+        var = var + 1
+        espacios = espacios -1
+
 
 
 if __name__=='__main__':
