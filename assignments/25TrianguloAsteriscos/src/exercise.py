@@ -5,7 +5,7 @@ def main():
     var = 1
     espacios = num - 1
     
-    while  var =< num:
+    while  var <= num:
         if num != espacios:
             print(' '*(espacios),'*' * var)
             var = var + 1
