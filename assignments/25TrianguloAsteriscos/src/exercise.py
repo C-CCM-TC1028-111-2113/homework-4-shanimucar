@@ -3,10 +3,12 @@ def main():
     #Escribe tu código debajo de esta línea
     num = int(input("Enter triangle height:"))
     var = 1
+    espacios = num - 1
     
     while  num >= var:
         print('*' * var)
         var = var + 1
+        espacios = espacios - 1
     
 
 
