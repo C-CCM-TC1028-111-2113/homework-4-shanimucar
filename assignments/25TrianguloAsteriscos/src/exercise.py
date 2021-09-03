@@ -1,7 +1,7 @@
 
 def main():
     #Escribe tu código debajo de esta línea
-    num = int(input("Enter triangle height:"))
+    num = int(input("Enter triangle height: "))
     var = 1
     espacios = num - 1
     
