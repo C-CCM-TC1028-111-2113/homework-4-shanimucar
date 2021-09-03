@@ -1,6 +1,6 @@
 def main():
     #escribe tu código abajo de esta línea
-    num = int(input(ingresa un numero))
+    num = int(input('ingresa un numero'))
     contador = 0
  
     while contador < num:
