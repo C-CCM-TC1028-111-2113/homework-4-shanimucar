@@ -6,9 +6,9 @@ def main():
     while contador < num:
         contador = contador + 1
         if contador % 2 == 0:
-            print(str(contador)+'-#')
-        elif contador % 2 != 0:
             print(str(contador)+'-%')
+        elif contador % 2 != 0:
+            print(str(contador)+'-#')
    
 
 
