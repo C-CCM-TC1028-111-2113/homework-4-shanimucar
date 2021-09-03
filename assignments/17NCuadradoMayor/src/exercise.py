@@ -6,10 +6,8 @@ def main():
     
     while var**2 <= num:
         var = var + 1
-        if var**2 < num:
-            pass
-        elif var**2 > num:
-            print(var)
+        
+    print(var)
     
 
 if __name__=='__main__':
