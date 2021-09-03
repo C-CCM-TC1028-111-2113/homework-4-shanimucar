@@ -5,7 +5,7 @@ def main():
     contador = 0
  
     while num > 0:
-        num = float(input('Give me the numbers: '))
+        num = float(input())
         if num < 0:
             print(suma/contador)
         else:
